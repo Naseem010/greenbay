@@ -1,0 +1,48 @@
+.NavBar{
+  display: flex;
+
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  position: absolute;
+  right:10px ;
+  top: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px;
+
+}
+.navbar a {
+  text-decoration: none;
+  color:#000000;
+}
+
+.navbar a:hover {
+  color:#2C541D;
+  text-decoration: underline;
+}
+
+.navbar a:focus,
+.navbar a:active {
+  outline: none;
+}
+.header-logo{
+position: absolute;
+left: 550px;
+top: 10px;
+color:#2C541D;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: 30px;
+}
