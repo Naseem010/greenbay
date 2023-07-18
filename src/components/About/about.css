@@ -15,11 +15,13 @@
   margin-left: 110px;
 }
 .about_content1{
+  height: 400px ;
   padding: 30px;
   background-color: #2B2730;
     color:white;
 }
-.about_content1 h3{
+h3{
+  margin-top: 20px;
   text-align: center;
 }
 .about_content1 p{

@@ -20,7 +20,7 @@ Whether you're a golf enthusiast, nature lover, or someone seeking a warm and we
 Together, we can make GreenBay Golf Village Resident Association a place we are proud to call home.
 </p>
     </div>
-<Footer/>
+<Footer className="footer" />
     </div>
   );
 };

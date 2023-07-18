@@ -24,17 +24,7 @@
 }
 .navbar a {
   text-decoration: none;
-  color:#000000;
-}
-
-.navbar a:hover {
   color:#2C541D;
-  text-decoration: underline;
-}
-
-.navbar a:focus,
-.navbar a:active {
-  outline: none;
 }
 .header-logo{
 position: absolute;
@@ -45,4 +35,11 @@ color:#2C541D;
 .logo{
   margin-top: 10px;
   margin-left: 30px;
+}
+.navhover{
+  transition: transform .2s;
+}
+
+.navhover:hover {
+  transform: scale(1.25); 
 }

@@ -1,10 +1,46 @@
-.home{
-    /* background-image: url('../Assets/eco.jpg');
-    background-size: cover;
-    background-position: center center;
-  background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; */
-    
-
+.members1{
+background-color: #F5F2E7;
+height: 450px;
+width: 100%;
+}
+.members1 p{
+  text-align: center;
+  margin-top: 100px;
+  font-size: xx-large;
+  font-weight: 500;
+  margin-right: 49px;
+  color: #2C541D;
+  letter-spacing: 7px;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+}
+.userlogo{
+  height: 200px;
+  width: 200px;
+}
+.executive-members{
+  background-color: #2C3333;
+  color: #F5F2E7  ;
+}
+.executiveList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 30px 70px 30px 70px;
+  margin: 0 50px 0 50px;
+}
+.executiveName{
+  text-align: center;
+  flex-basis: 25%;
+}
+ol{
+  margin-left: 160px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.executive-members li{
+  margin-top: 25px;
 }

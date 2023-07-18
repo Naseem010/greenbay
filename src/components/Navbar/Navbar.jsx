@@ -13,22 +13,22 @@ const Navbar = () => {
     </div>
     <div className="navbar">
     <ul>
-        <li>
+        <li className="navhover">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li className="navhover">
         <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className="navhover">
           <Link to="/members">Members</Link>
         </li>
-        <li>
+        <li className="navhover">
         <Link to="/contact">Contact</Link>
         </li>
-        <li>
+        <li className="navhover">
           <Link to="/gallery">Gallery</Link>
         </li>
-        <li>
+        <li className="navhover">
           <Link to="/login">Login</Link>
         </li>
         </ul>
