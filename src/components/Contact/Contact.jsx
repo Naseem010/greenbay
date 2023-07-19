@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaLocationDot } from "react-icons/fa";
+import { BsFillGeoAltFill } from "react-icons/bs";
 import './contact.css';
 
 const Contact = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
+  const [formStatus, setFormStatus] = React.useState('SEND NOW')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Submitting...')
@@ -24,6 +24,7 @@ const Contact = () => {
     <Navbar/>
       <p>CONTACT US</p>
       </div>
+      <div className='contact_card'>
       <div className="container mt-5">
       <h3 className="mb-3">Get In Touch</h3>
       <form onSubmit={onSubmit}>
@@ -45,20 +46,38 @@ const Contact = () => {
           </label>
           <textarea className="form-control" id="message" required />
         </div>
-        <button className="btn btn-danger" type="submit">
-          {formStatus}
+        <button className="btn btn-danger mb-5" type="submit">
+         {formStatus}
         </button>
       </form>
     </div>
     <div className='talk2us'>
-<h3>Talk To Us</h3>
+<h3 className="mb-3">Talk To Us</h3>
 <div className='talk2us1'>
-<AiOutlineMail />
-<div >
-<p>EMAIL</p>
-<h4>something@ggvra.in</h4>
+  <AiOutlineMail className='talk2uslogo'/>  
+  <div>
+    <p className='talk2ustext'>EMAIL</p>
+    <p className='talk2usdata'>something@ggvra.in</p>
+  </div>
 </div>
+<div className='talk2us1'>
+<BsFillTelephoneFill className='talk2uslogo'/>  
+  <div>
+    <p className='talk2ustext'>PHONE NUMBER</p>
+    <p className='talk2usdata'>202-555-882-876</p>
+  </div>
 </div>
+<div className='talk2us1'>
+<BsFillGeoAltFill className='talk2uslogo'/>  
+  <div>
+    <p className='talk2ustext'>ADDRESS</p>
+    <p className='talk2usdata'>GREATER NOIDA , ADD</p>
+  </div>
+</div>
+<div className='talk2us1'>
+  
+</div>
+    </div>
     </div>
     </div>
   );

@@ -30,16 +30,22 @@
     border-radius: 20px;
     font-weight: 600;
 }
+
 .about-sec{
     display: flex;
     height: 400px;
     background-color: #2B2730;
 }
 .about-content{
-    width: 300px;
+    width: 400px;
     padding: 50px;
     margin: 50px 50px 50px 200px;
     color: white;
+}
+.about-content h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
 }
 .about-pic{
     width: 300px;
